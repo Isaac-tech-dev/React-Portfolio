@@ -1,0 +1,71 @@
+.pricing{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #222;
+}
+.card{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #141414;
+}
+.card h3{
+    font-size: 20px;
+    padding: 10px;
+}
+.card p{
+    padding: 10px 0;
+}
+.bar{
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 10px auto;
+    display: block;
+}
+.btc{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.card .btn{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.project-title{
+    color: #fff;
+    padding: 1rem 0;
+}
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+/*MEDIA QUERY*/
+@media (max-width:799px) {
+    .card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
